@@ -868,7 +868,6 @@ void Cmd_Say_f (edict_t *ent, qboolean team, qboolean arg0)
 		gi.cprintf(other, PRINT_CHAT, "%s", text);
 	}
 }
-
 void Cmd_PlayerList_f(edict_t *ent)
 {
 	int i;
