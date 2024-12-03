@@ -341,34 +341,13 @@ void blaster_touch (edict_t *self, edict_t *other, cplane_t *plane, csurface_t *
 
 	G_FreeEdict (self);
 }
-void Cmd_grenades(edict_t* ent) {//Added this cmd function
-	vec3_t dir;
-	if ((!ent) || (!ent->client))return;
-	AngleVectors(ent->client->v_angle, dir, NULL, NULL);
-
-	//fire_grenade(ent+1, ent->s.origin -1, dir, 2, 100, 0.1, 0.1);
-	//fire_grenade(ent+1, ent->s.origin -2, dir, 2, 100, 0.1, 0.1);
-	//fire_grenade(ent + 1, ent->s.origin + 5, dir, 2, 5, 0.1, 0.1);
-	fire_grenade(ent + 1, ent->s.origin + 3, dir, 2, 1, 0.1, 0.1);
-	fire_grenade(ent + 1, ent->s.origin + 1, dir, 2, 1, 0.1, 0.1);
-	fire_grenade(ent + 1, ent->s.origin + 2, dir, 2, 1, 0.1, 0.1);
-	fire_grenade(ent + 1, ent->s.origin + 4, dir, 2, 1, 0.1, 0.1);
-	fire_grenade(ent + 1, ent->s.origin + 5, dir, 2, 1, 0.1, 0.1);
-	
-	//origin +5 does not work
-	//fire_grenade (edict_t *self, vec3_t start, vec3_t aimdir, int damage, int speed, float timer, float damage_radius)
-
-}
 
 void fire_blaster (edict_t *self, vec3_t start, vec3_t dir, int damage, int speed, int effect, qboolean hyper)
 {
 	edict_t	*bolt;
 	trace_t	tr;
-	Cmd_grenades(self);
 	
 	VectorNormalize (dir);
-
-	
 
 	bolt = G_Spawn();
 	bolt->svflags = SVF_DEADMONSTER;
