@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\alyso\\gitstuff\\quake2mod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_weapon.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_weapon.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\s_cam.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\s_cam.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_items.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_items.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_chase.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_chase.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_cmds.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_cmds.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_utils.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_utils.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\p_view.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\p_view.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,8 +25,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 148,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 112,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,24 +35,12 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "g_utils.c",
-              "DocumentMoniker": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_utils.c",
-              "RelativeDocumentMoniker": "game\\g_utils.c",
-              "ToolTip": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_utils.c",
-              "RelativeToolTip": "game\\g_utils.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-26T16:35:51.914Z"
             }
           ]
         },
         {
-          "DockedWidth": 297,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 333,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -64,16 +52,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "g_items.c",
-              "DocumentMoniker": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_items.c",
-              "RelativeDocumentMoniker": "game\\g_items.c",
-              "ToolTip": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_items.c",
-              "RelativeToolTip": "game\\g_items.c",
-              "ViewState": "AgIAACoHAAAAAAAAAAAmwD4HAAANAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "p_view.c",
+              "DocumentMoniker": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\p_view.c",
+              "RelativeDocumentMoniker": "game\\p_view.c",
+              "ToolTip": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\p_view.c",
+              "RelativeToolTip": "game\\p_view.c",
+              "ViewState": "AgIAACgBAAAAAAAAAAAswFcBAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-26T17:12:36.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T17:36:11.354Z"
             },
             {
               "$type": "Document",
@@ -83,22 +70,33 @@
               "RelativeDocumentMoniker": "game\\g_cmds.c",
               "ToolTip": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_cmds.c",
               "RelativeToolTip": "game\\g_cmds.c",
-              "ViewState": "AgIAANsCAAAAAAAAAAAmwLoCAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAgwP4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-25T23:48:06.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T23:48:06.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "g_chase.c",
+              "DocumentMoniker": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_chase.c",
+              "RelativeDocumentMoniker": "game\\g_chase.c",
+              "ToolTip": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_chase.c",
+              "RelativeToolTip": "game\\g_chase.c",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-05T17:23:16.524Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "g_weapon.c",
-              "DocumentMoniker": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_weapon.c",
-              "RelativeDocumentMoniker": "game\\g_weapon.c",
-              "ToolTip": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_weapon.c",
-              "RelativeToolTip": "game\\g_weapon.c",
-              "ViewState": "AgIAAFABAAAAAAAAAAAAAF0BAAAXAAAAAAAAAA==",
+              "Title": "s_cam.c",
+              "DocumentMoniker": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\s_cam.c",
+              "RelativeDocumentMoniker": "game\\s_cam.c",
+              "ToolTip": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\s_cam.c",
+              "RelativeToolTip": "game\\s_cam.c",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-19T00:29:25.811Z",
+              "WhenOpened": "2024-12-05T17:28:46.33Z",
               "EditorCaption": ""
             }
           ]

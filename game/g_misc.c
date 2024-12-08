@@ -1873,4 +1873,15 @@ void SP_misc_teleporter_dest (edict_t *ent)
 	VectorSet (ent->maxs, 32, 32, -16);
 	gi.linkentity (ent);
 }
+/**
+void file_log(const char* msg) 
+{
+	FILE* file;
+	if (!msg)return;
+	file = fopen("quake2.log", "a"); 
+	if (!file)return;
+	fprint(file, msg);
+	fclose(file);
+}
+*/
 
