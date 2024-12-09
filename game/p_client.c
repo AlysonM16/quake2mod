@@ -1586,6 +1586,10 @@ void ClientThink (edict_t *ent, usercmd_t *ucmd)
 			level.exitintermission = true;
 		return;
 	}
+	//MUCE
+	if (ent->client->thrusting) {
+		ApplyThrust(ent);
+	}
 
 	pm_passent = ent;
 

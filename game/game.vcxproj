@@ -464,6 +464,7 @@
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release Alpha|Win32'"> /QA21164   /QA21164 </AdditionalOptions>
     </ClCompile>
     <ClCompile Include="s_cam.c" />
+    <ClCompile Include="s_jetpack.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="g_local.h" />

@@ -897,7 +897,25 @@ void Cmd_PlayerList_f(edict_t *ent)
 	}
 	gi.cprintf(ent, PRINT_HIGH, "%s", text);
 }
+/*
+* Adding thrust for jetpack
+* MUCE: Set jetpack on or off
+*/
+void Cmd_Thrust_f(edict_t* ent) {
+	char* string;
 
+	string = gi.args();
+
+	if (Q_stricmp(string, "on") == 0)
+	{
+		ent->client->thrusting = 1;
+		ent->client->next_thrust_sound = 0;
+	}
+	else
+	{
+		ent->client->thrusting = 0;
+	}
+}
 
 /*
 =================
@@ -988,6 +1006,8 @@ void ClientCommand (edict_t *ent)
 		Cmd_Chasecam_Toggle(ent);
 	else if (Q_stricmp(cmd, "playerlist") == 0)
 		Cmd_PlayerList_f(ent);
+	else if (Q_stricmp(cmd, "thrust") == 0)
+		Cmd_Thrust_f(ent);
 	else	// anything that doesn't match a command will be a chat
 		Cmd_Say_f (ent, false, true);
 }

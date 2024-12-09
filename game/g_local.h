@@ -962,7 +962,8 @@ struct gclient_s
 	int			chasetoggle;		//ADDED
 	edict_t		*chasecam;			//ADDED
 	edict_t		*oldplayer;			//ADDED
-
+	qboolean	thrusting;			//ADDED
+	float		next_thrust_sound;
 };
 
 
