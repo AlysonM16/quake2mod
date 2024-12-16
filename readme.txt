@@ -17,4 +17,10 @@ Press x to start the game. You can use your blaster as a weapon. You also have a
 4-> rocket missile gun
 5-> speedy grenade launcher
 Be careful not to run into walls. Enjoy the mod!
-
+Project deliverables:
+Final Project 
+1. Basic jetpack joyride player movement-blaster, jetpack, fly
+2. Five collectable bonuses
+3. Five upgrades permanent
+4. Coins and shop
+5. third-person camera
