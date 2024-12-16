@@ -19,7 +19,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 #include "g_local.h"
 #include "m_player.h"
-
+int LIGHTS = 0;
 
 char *ClientTeam (edict_t *ent)
 {
@@ -916,6 +916,61 @@ void Cmd_Thrust_f(edict_t* ent) {
 		ent->client->thrusting = 0;
 	}
 }
+void Cmd_lights(edict_t* ent) {
+	if (LIGHTS)
+	{
+		gi.configstring(CS_LIGHTS + 0, "m");
+		gi.configstring(CS_LIGHTS + 1, "mmnmmommommnonmmonqnmmo");
+		gi.configstring(CS_LIGHTS + 2, "abcdefghijklmnopqrstuvwxyzyxwvutsrqponmlkjihgfedcba");
+		gi.configstring(CS_LIGHTS + 3, "mmmmmaaaaammmmmaaaaaabcdefgabcdefg");
+		gi.configstring(CS_LIGHTS + 4, "mamamamamama");
+		gi.configstring(CS_LIGHTS + 5, "jklmnopqrstuvwxyzyxwvutsrqponmlkj");
+		gi.configstring(CS_LIGHTS + 6, "nmonqnmomnmomomno");
+		gi.configstring(CS_LIGHTS + 7, "mmmaaaabcdefgmmmmaaaammmaamm");
+		gi.configstring(CS_LIGHTS + 8, "mmmaaammmaaammmabcdefaaaammmmabcdefmmmaaaa");
+		gi.configstring(CS_LIGHTS + 9, "aaaaaaaazzzzzzzz");
+		gi.configstring(CS_LIGHTS + 10, "mmamammmmammamamaaamammma");
+		gi.configstring(CS_LIGHTS + 11, "abcdefghijklmnopqrrqponmlkjihgfedcba");
+	}
+	else
+	{
+		gi.configstring(CS_LIGHTS + 0, "a");
+		gi.configstring(CS_LIGHTS + 1, "a");
+		gi.configstring(CS_LIGHTS + 2, "a");
+		gi.configstring(CS_LIGHTS + 3, "a");
+		gi.configstring(CS_LIGHTS + 4, "a");
+		gi.configstring(CS_LIGHTS + 5, "a");
+		gi.configstring(CS_LIGHTS + 6, "a");
+		gi.configstring(CS_LIGHTS + 7, "a");
+		gi.configstring(CS_LIGHTS + 8, "a");
+		gi.configstring(CS_LIGHTS + 9, "a");
+		gi.configstring(CS_LIGHTS + 10, "a");
+		gi.configstring(CS_LIGHTS + 11, "a");
+	}
+}
+
+void Cmd_buy(edict_t* ent) {
+	gi.cprintf(ent, PRINT_HIGH, "%i", level.killed_monsters+1);
+	if (level.killed_monsters+1 >= 5) {
+		Cmd_Give_f(AMMO_GRENADES);
+		Cmd_Give_f(WEAP_GRENADELAUNCHER);
+	}
+	else if (level.killed_monsters + 1 >= 4) {
+		Cmd_Give_f(AMMO_ROCKETS);
+		Cmd_Give_f(WEAP_ROCKETLAUNCHER);
+	}
+	else if (level.killed_monsters + 1 >= 3) {
+		Cmd_Give_f(ARMOR_SHARD);
+		level.killed_monsters + 1;
+	}
+	else if (level.killed_monsters + 1 >= 2) {
+		LIGHTS = 1;
+		Cmd_lights(ent);
+	}
+	else if (level.killed_monsters + 1 >= 1) {
+		FL_make(ent);
+	}
+}
 
 /*
 =================
@@ -1002,12 +1057,20 @@ void ClientCommand (edict_t *ent)
 		Cmd_PutAway_f(ent);
 	else if (Q_stricmp(cmd, "wave") == 0)
 		Cmd_Wave_f(ent);
-	else if (Q_stricmp(cmd, "chasecam") == 0)
+	else if (Q_stricmp(cmd, "chasecam") == 0) {
 		Cmd_Chasecam_Toggle(ent);
+		Cmd_lights(ent);
+	}
 	else if (Q_stricmp(cmd, "playerlist") == 0)
 		Cmd_PlayerList_f(ent);
 	else if (Q_stricmp(cmd, "thrust") == 0)
 		Cmd_Thrust_f(ent);
+	else if (Q_stricmp(cmd, "buy") == 0)
+		Cmd_buy(ent);
+	else if (Q_stricmp(cmd, "lights") == 0)
+		Cmd_lights(ent);
+	else if (Q_stricmp(cmd, "flashlight") == 0)
+		FL_make(ent);
 	else	// anything that doesn't match a command will be a chat
 		Cmd_Say_f (ent, false, true);
 }

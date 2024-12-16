@@ -509,16 +509,16 @@ void G_SetStats (edict_t *ent)
 	{
 		if (ent->client->pers.health <= 0 || level.intermissiontime
 			|| ent->client->showscores)
-			ent->client->ps.stats[STAT_LAYOUTS] |= 1;
+			ent->client->ps.stats[STAT_LAYOUTS] |= 1;//1
 		if (ent->client->showinventory && ent->client->pers.health > 0)
-			ent->client->ps.stats[STAT_LAYOUTS] |= 2;
+			ent->client->ps.stats[STAT_LAYOUTS] |= 2;//2
 	}
 	else
 	{
 		if (ent->client->showscores || ent->client->showhelp)
-			ent->client->ps.stats[STAT_LAYOUTS] |= 1;
+			ent->client->ps.stats[STAT_LAYOUTS] |= 1;//1
 		if (ent->client->showinventory && ent->client->pers.health > 0)
-			ent->client->ps.stats[STAT_LAYOUTS] |= 2;
+			ent->client->ps.stats[STAT_LAYOUTS] |= 2;//2
 	}
 
 	//

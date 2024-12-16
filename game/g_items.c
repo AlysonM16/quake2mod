@@ -1210,7 +1210,7 @@ gitem_t	itemlist[] =
 /* precache */ ""
 	},
 
-/*QUAKED item_armor_shard (.3 .3 1) (-16 -16 -16) (16 16 16)
+/*QUAKED item_armor_shard (.3 .3 1) (-16 -16 -16) (16 16 16) //Changing into a coin
 */
 	{
 		"item_armor_shard", 
@@ -1222,8 +1222,8 @@ gitem_t	itemlist[] =
 		"models/items/armor/shard/tris.md2", EF_ROTATE,
 		NULL,
 /* icon */		"i_jacketarmor",
-/* pickup */	"Armor Shard",
-/* width */		3,
+/* pickup */	"Coin",
+/* width */		10,
 		0,
 		NULL,
 		IT_ARMOR,
@@ -2180,6 +2180,18 @@ void SP_item_health_mega (edict_t *self)
 	SpawnItem (self, FindItem ("Health"));
 	gi.soundindex ("items/m_health.wav");
 	self->style = HEALTH_IGNORE_MAX|HEALTH_TIMED;
+}
+
+void SP_item_coin(edict_t* self)
+{
+	if (deathmatch->value && ((int)dmflags->value & DF_NO_HEALTH))
+	{
+		G_FreeEdict(self);
+		return;
+	}
+	self->model = "models/items/armor/shard/tris.md2";
+	self->count = 10;
+	SpawnItem(self, FindItem("Coin"));
 }
 
 

@@ -30,6 +30,7 @@ qboolean	enemy_vis;
 qboolean	enemy_infront;
 int			enemy_range;
 float		enemy_yaw;
+int			gunspeed = 300;
 
 //============================================================================
 

@@ -860,6 +860,7 @@ typedef struct
 
 	int			game_helpchanged;
 	int			helpchanged;
+	
 
 	qboolean	spectator;			// client is a spectator
 } client_persistant_t;
@@ -1116,7 +1117,10 @@ struct edict_s
 	monsterinfo_t	monsterinfo;
 	int		chasedist1;
 	int		chasedist2;
+	edict_t* flashlight;
 };
+void FL_think(edict_t* self);
+void FL_make(edict_t* self);
 extern void CheckChasecam_Viewent(edict_t* ent);
 /**
 @brief writes a file

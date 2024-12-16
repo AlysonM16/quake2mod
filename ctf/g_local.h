@@ -1138,7 +1138,6 @@ struct edict_s
 	moveinfo_t		moveinfo;
 	monsterinfo_t	monsterinfo;
 };
-
 //ZOID
 #include "g_ctf.h"
 //ZOID

@@ -14,15 +14,13 @@ void ApplyThrust(edict_t* ent)
 
 	vec3_t forward, right;
 	vec3_t pack_pos, jet_vector;
-
 	//MUCE:  add thrust to character
-
-	if (ent->velocity[2] < -500)
+	if (ent->velocity[2] < -300)//-300
 		ent->velocity[2] += ((ent->velocity[2]) / (-5));
 	else if (ent->velocity[2] < 0)
-		ent->velocity[2] += 100;
+		ent->velocity[2] += 100;//100
 	else
-		ent->velocity[2] += ((1000 - ent->velocity[2]) / 8);
+		ent->velocity[2] += ((1000 - ent->velocity[2]) / 500);//8
 
 	//MUCE:  add sparks
 
@@ -31,7 +29,7 @@ void ApplyThrust(edict_t* ent)
 	VectorAdd(pack_pos, ent->s.origin, pack_pos);
 	pack_pos[2] += (ent->viewheight);
 
-	VectorScale(forward, -50, jet_vector);
+	VectorScale(forward, -50, jet_vector);//-50
 
 	gi.WriteByte(svc_temp_entity);
 	gi.WriteByte(TE_SPARKS);
