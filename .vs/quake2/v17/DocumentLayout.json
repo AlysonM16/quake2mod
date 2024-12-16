@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\alyso\\gitstuff\\quake2mod\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_cmds.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_cmds.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\p_weapon.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\p_weapon.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\p_hud.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\p_hud.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_cmds.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_cmds.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,13 +40,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "p_weapon.c",
               "DocumentMoniker": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\p_weapon.c",
               "RelativeDocumentMoniker": "game\\p_weapon.c",
               "ToolTip": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\p_weapon.c",
               "RelativeToolTip": "game\\p_weapon.c",
-              "ViewState": "AgIAADQCAAAAAAAAAAAYwDsCAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADQCAAAAAAAAAAAYwEICAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-12-16T06:47:59.475Z",
               "EditorCaption": ""
@@ -55,21 +55,20 @@
         },
         {
           "DockedWidth": 665,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "p_hud.c",
               "DocumentMoniker": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\p_hud.c",
               "RelativeDocumentMoniker": "game\\p_hud.c",
               "ToolTip": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\p_hud.c",
               "RelativeToolTip": "game\\p_hud.c",
-              "ViewState": "AgIAADMBAAAAAAAAAAAAAD4BAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAC0BAAAAAAAAAAAAAD4BAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-12-16T04:20:42.769Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -81,13 +80,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "g_cmds.c",
               "DocumentMoniker": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_cmds.c",
               "RelativeDocumentMoniker": "game\\g_cmds.c",
               "ToolTip": "C:\\Users\\alyso\\gitstuff\\quake2mod\\game\\g_cmds.c",
               "RelativeToolTip": "game\\g_cmds.c",
-              "ViewState": "AgIAALYDAAAAAAAAAAAiwL8DAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAALQDAAAAAAAAAAAqwMEDAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-12-16T08:42:43.282Z",
               "EditorCaption": ""

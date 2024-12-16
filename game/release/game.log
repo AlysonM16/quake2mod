@@ -1,7 +1,32 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-  p_hud.c
-C:\Users\alyso\gitstuff\quake2mod\game\p_hud.c(234,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\alyso\gitstuff\quake2mod\game\p_hud.c(245,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\alyso\gitstuff\quake2mod\game\p_hud.c(423,1): warning C4701: potentially uninitialized local variable 'cells' used
+  g_cmds.c
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(34,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(57,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(58,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(722,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(725,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(808,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(809,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(810,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(821,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(828,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(874,7): warning C4459: declaration of 'st' hides global declaration
+      C:\Users\alyso\gitstuff\quake2mod\game\g_local.h(456,21):
+      see declaration of 'st'
+  
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(896,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(884,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(892,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(919,26): warning C4100: 'ent': unreferenced formal parameter
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(955,14): warning C4047: 'function': 'edict_t *' differs in levels of indirection from 'int'
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(955,14): warning C4024: 'Cmd_Give_f': different types for formal and actual parameter 1
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(956,14): warning C4047: 'function': 'edict_t *' differs in levels of indirection from 'int'
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(956,14): warning C4024: 'Cmd_Give_f': different types for formal and actual parameter 1
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(959,14): warning C4047: 'function': 'edict_t *' differs in levels of indirection from 'int'
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(959,14): warning C4024: 'Cmd_Give_f': different types for formal and actual parameter 1
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(960,14): warning C4047: 'function': 'edict_t *' differs in levels of indirection from 'int'
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(960,14): warning C4024: 'Cmd_Give_f': different types for formal and actual parameter 1
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(963,25): warning C4552: '+': result of expression not used
+C:\Users\alyso\gitstuff\quake2mod\game\g_cmds.c(1060,3): warning C4013: 'Cmd_Chasecam_Toggle' undefined; assuming extern returning int
      Creating library .\..\release\gamex86.lib and object .\..\release\gamex86.exp
   game.vcxproj -> C:\Users\alyso\gitstuff\quake2mod\game\release\gamex86.dll

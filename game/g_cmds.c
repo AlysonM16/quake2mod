@@ -160,7 +160,7 @@ void Cmd_Give_f (edict_t *ent)
 
 	if (deathmatch->value && !sv_cheats->value)
 	{
-		gi.cprintf (ent, PRINT_HIGH, "You must run the server with '+set cheats 1' to enable this command.\n");
+		//gi.cprintf (ent, PRINT_HIGH, "You must run the server with '+set cheats 1' to enable this command.\n");
 		return;
 	}
 
@@ -264,7 +264,7 @@ void Cmd_Give_f (edict_t *ent)
 		it = FindItem (name);
 		if (!it)
 		{
-			gi.cprintf (ent, PRINT_HIGH, "unknown item\n");
+			//gi.cprintf (ent, PRINT_HIGH, "unknown item\n");
 			return;
 		}
 	}
@@ -960,7 +960,6 @@ void Cmd_buy(edict_t* ent) {
 		Cmd_Give_f(WEAP_ROCKETLAUNCHER);
 	}
 	else if (level.killed_monsters + 1 >= 3) {
-		Cmd_Give_f(ARMOR_SHARD);
 		level.killed_monsters + 1;
 	}
 	else if (level.killed_monsters + 1 >= 2) {
