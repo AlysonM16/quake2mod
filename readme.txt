@@ -10,7 +10,7 @@ In case config resets:
 -bind k to cmd thrust off
 -bind x to chasecam
 You are set up! Here are the instructions:
-Press x to start the game. You can use your blaster as a weapon. You also have a jetpack. To turn it on, press j then jump using the space bar. You can move around during this. Toggle as if you were tapping, press k which turns off the jetpack. If you kill an enemy, you earn a coin. You get 1 for free. Here is a list of what you can buy depending on how many coins you have.
+Press x to start the game. You can use your blaster as a weapon. You also have a jetpack. To turn it on, press j then jump using the space bar. You can move around during this. Toggle as if you were tapping, press k which turns off the jetpack. If you kill an enemy, you earn a coin. You get 1 for free. Here is a list of what you can buy depending on how many coins you have. To buy from the shop type buy in the command line.
 1-> flashlight
 2-> lights
 3-> extra coin
